@@ -4,6 +4,7 @@ body {
     align-items: center;
     background-color: #565656;
 }
+
 main {
     display: flex;
     width: 1080px;
@@ -12,7 +13,7 @@ main {
     border-radius: 10px;
 }
 
-.caixa1 {
+.container {
     width: 540px;
     display: flex;
     flex-direction: column;
@@ -20,10 +21,12 @@ main {
     justify-content: center;
     flex-wrap: nowrap;
 }
-.secao1 {
+
+.section-1 {
     margin-bottom: 20px;
 }
-.secao1 h1 {
+
+.section-1 h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 28.5px;
@@ -31,7 +34,8 @@ main {
     text-transform: uppercase;
     color: #030303;
 }
-.secao1 p{
+
+.section-1 p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -43,13 +47,12 @@ main {
     margin-top: -15px;
 }
 
-
-
-.caixa1 form {
+.container form {
     display: flex;
     flex-direction: column;
 }
-.input {
+
+.input-field {
     width: 315px;
     height: 69px;
     display: flex;
@@ -57,7 +60,7 @@ main {
     margin-bottom: 20px;
 }
 
-.input label {
+.input-field label {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -68,7 +71,8 @@ main {
     margin-bottom: 5px;
     padding: 5px;
 }
-.input input {
+
+.input-field input {
     font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 300;
@@ -79,7 +83,7 @@ main {
     color: #636364;
 }
 
-.formaPadrao {
+.standard-input {
     width: 313.97px;
     height: 41.31px;
     box-sizing: border-box;
@@ -87,13 +91,14 @@ main {
     border-radius: 12px;
 }
 
-.forgot {
+.forgot-password {
     display: flex;
     justify-content: space-between;
     padding: 0 7px 0 0;
     margin-bottom: 15px;
 }
-.forgot label {
+
+.forgot-password label {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -105,7 +110,8 @@ main {
     display: flex;
     align-items: flex-end;
 }
-.forgot a {
+
+.forgot-password a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -117,14 +123,14 @@ main {
     text-decoration: none;
 }
 
-.botao1 {
+.button-primary {
     background-color: #EA454C;
     color: #fff;
     margin-bottom: 10px;
     cursor: pointer;
 }
 
-.botao2 {
+.button-secondary {
     background-image: url(./google.png);
     background-size: 28.92px;
     background-repeat: no-repeat;
@@ -141,13 +147,12 @@ main {
     cursor: pointer;
 }
 
-
 img {
     width: 540px;
     height: 650px;
     border: 1px solid rgba(0, 0, 0, 0.21);
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
