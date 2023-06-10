@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #565656;
+}
+main {
+    display: flex;
+    width: 1080px;
+    height: 650px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+
+.caixa1 {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.secao1 {
+    margin-bottom: 20px;
+}
+.secao1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 28.5px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #030303;
+}
+.secao1 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #636364;
+    margin-top: -15px;
+}
+
+
+
+.caixa1 form {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    width: 315px;
+    height: 69px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #181818;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.input input {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px;
+    letter-spacing: 0.03em;
+    color: #636364;
+}
+
+.formaPadrao {
+    width: 313.97px;
+    height: 41.31px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px 0 0;
+    margin-bottom: 15px;
+}
+.forgot label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #181818;
+    display: flex;
+    align-items: flex-end;
+}
+.forgot a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #181818;
+    text-decoration: none;
+}
+
+.botao1 {
+    background-color: #EA454C;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.botao2 {
+    background-image: url(./google.png);
+    background-size: 28.92px;
+    background-repeat: no-repeat;
+    background-position: 75px 50%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+
+img {
+    width: 540px;
+    height: 650px;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
